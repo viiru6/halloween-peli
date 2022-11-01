@@ -2,18 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pelaajaOsuma : enemyStats
+public class pelaajaOsuma : MonoBehaviour
 {
-    private void Start()
-    {
-        
-    }
+    public int damage = 5;
+    playerStats ps;
     private void OnTriggerEnter(Collider collision)
     {
+        ps = gameObject.AddComponent<playerStats>();
         if (collision.gameObject.tag == "enemy")
         {
-            sattua(5);
+            ps.sattua(damage);
         }
-
     }
 }

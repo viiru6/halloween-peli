@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class kuolemaruutu : peli
 {
-    GameObject kuolemaruu;
-    private void Start()
-    {
-        kuolemaruu = GameObject.Find("kuolemaRuutu(Clone)");
-    }
     public void restart()
     {
-        kuolemaruu.SetActive(false);
+        gameObject.SetActive(false);
         GameObject.Instantiate(pelaaja);
-
     }
 }

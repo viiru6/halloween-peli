@@ -5,10 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class mainmenu : MonoBehaviour
 {
-
+    GameObject game;
+    private void Start()
+    {
+        game = gameObject;
+        game.SetActive(false);
+    }
     public void poistu()
     {
         Application.Quit();
+        Debug.Log("toiimi");
     }
     public void pelaa()
     {
@@ -16,6 +22,8 @@ public class mainmenu : MonoBehaviour
         menu = GameObject.Find("mainmenu(Clone)");
         menu.SetActive(false); 
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = false; 
+        game = GameObject.Find("game");
+        game.SetActive(true);
     }
 }
