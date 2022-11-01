@@ -8,12 +8,13 @@ public class mainmenu : MonoBehaviour
     public void poistu()
     {
         Application.Quit();
-        Debug.Log("toimii");
     }
     public void pelaa()
     {
         GameObject menu;
         menu = GameObject.Find("mainmenu(Clone)");
-        menu.SetActive(false);
+        menu.SetActive(false); 
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }
