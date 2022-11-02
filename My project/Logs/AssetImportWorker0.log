@@ -1,0 +1,249 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Enterprise' Language: 'fi' Physical Memory: 32542 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Eero.rissanen/Documents/GitHub/halloween-peli/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63895
+Successfully changed project path to: C:/Users/Eero.rissanen/Documents/GitHub/halloween-peli/My project
+C:/Users/Eero.rissanen/Documents/GitHub/halloween-peli/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 69.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Eero.rissanen/Documents/GitHub/halloween-peli/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   30.0.14.7291
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.038239 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 95.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (308ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (543ms)
+			LoadAssemblies (307ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006555 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Eero.rissanen\Documents\GitHub\halloween-peli\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Eero.rissanen\Documents\GitHub\halloween-peli\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1307ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1098ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.3 KB). Loaded Objects now: 3838.
+Memory consumption went from 116.0 MB to 116.0 MB.
+Total: 3.079300 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.199100 ms MarkObjects: 2.523500 ms  DeleteObjects: 0.065300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41713.395740 seconds.
+  path: Assets/kolmereemallit/Pelihahmo.fbx
+  artifactKey: Guid(b0c0ef7451686fe41b3d6f7ac0401806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/Pelihahmo.fbx using Guid(b0c0ef7451686fe41b3d6f7ac0401806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a45e6be4e4afd470c3cc279ebedbab0') in 0.325767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.941548 seconds.
+  path: Assets/kolmereemallit/Pelihahmo.fbx
+  artifactKey: Guid(b0c0ef7451686fe41b3d6f7ac0401806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/Pelihahmo.fbx using Guid(b0c0ef7451686fe41b3d6f7ac0401806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3149d4fb25afa98abf240ce1af28f23b') in 0.125287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 194.261611 seconds.
+  path: Assets/kolmereemallit/Pelihahmo.controller
+  artifactKey: Guid(f4c979cd22ec9a742b65cf61f5d983b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/Pelihahmo.controller using Guid(f4c979cd22ec9a742b65cf61f5d983b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395ebdcb10320dd8be22b50000c59391') in 0.004187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.512241 seconds.
+  path: Assets/kolmereemallit/materials/New Material 1.mat
+  artifactKey: Guid(502373d8c248e564793538a81b8689f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/New Material 1.mat using Guid(502373d8c248e564793538a81b8689f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e40b6371577fda85a8f92a73970c4bf') in 0.023803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.909092 seconds.
+  path: Assets/kolmereemallit/materials/Pelihahmovärit.png
+  artifactKey: Guid(b47bda22dfb512f489c569f8f02c10ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Pelihahmovärit.png using Guid(b47bda22dfb512f489c569f8f02c10ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43447fa39d8b78713376155d42327e5d') in 0.032962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.848344 seconds.
+  path: Assets/kolmereemallit/materials/Pelihahmonormal.png
+  artifactKey: Guid(a3c5c7cbd14df5246b45201ebe32eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Pelihahmonormal.png using Guid(a3c5c7cbd14df5246b45201ebe32eb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d1f189159eeab6359491713907cf3b') in 0.020944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.011282 seconds.
+  path: Assets/kolmereemallit/materials/Miekkajakilpimetallic.png
+  artifactKey: Guid(ecf35281790b3704684e6563744ec742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Miekkajakilpimetallic.png using Guid(ecf35281790b3704684e6563744ec742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2555d4547e0d8cc9cdc104b581ac8311') in 0.022268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.271328 seconds.
+  path: Assets/kolmereemallit/materials/Miekkajakilpinormal.png
+  artifactKey: Guid(c77b64c87c2a06340ab0c6e2462238b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Miekkajakilpinormal.png using Guid(c77b64c87c2a06340ab0c6e2462238b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf46f33102abe2a8cc6ce632f24b5c38') in 0.016834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.802978 seconds.
+  path: Assets/kolmereemallit/materials/Miekkajakilpivärit.png
+  artifactKey: Guid(675a10c846f8ee343aee157180e4295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Miekkajakilpivärit.png using Guid(675a10c846f8ee343aee157180e4295c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d6692e322f81247ea5d6f4c57427de') in 0.019694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.769537 seconds.
+  path: Assets/kolmereemallit/materials/Kauhukakaramaterial.mat
+  artifactKey: Guid(dd08502d5ad1bf64e8a8152d2667bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Kauhukakaramaterial.mat using Guid(dd08502d5ad1bf64e8a8152d2667bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c6c93820cdd5432bd40e45a9306f00') in 0.028411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.414848 seconds.
+  path: Assets/kolmereemallit/materials/Pelaajamaterial.mat
+  artifactKey: Guid(502373d8c248e564793538a81b8689f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Pelaajamaterial.mat using Guid(502373d8c248e564793538a81b8689f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f0bddd0cc03118be1f8ed345fd7baa') in 0.011912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.612323 seconds.
+  path: Assets/kolmereemallit/materials/New Material.mat
+  artifactKey: Guid(c1eb2c795e02b574c8f60886dacfa4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/New Material.mat using Guid(c1eb2c795e02b574c8f60886dacfa4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12f9070b2e1c8282d250da40536ef68') in 0.020505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.816417 seconds.
+  path: Assets/kolmereemallit/materials/Miekkjakilpimaterial.mat
+  artifactKey: Guid(c1eb2c795e02b574c8f60886dacfa4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Miekkjakilpimaterial.mat using Guid(c1eb2c795e02b574c8f60886dacfa4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c903678619172583518e803e3678ac42') in 0.020165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 259.472604 seconds.
+  path: Assets/kolmereemallit/materials/Kauhukakaramaterial.mat
+  artifactKey: Guid(dd08502d5ad1bf64e8a8152d2667bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Kauhukakaramaterial.mat using Guid(dd08502d5ad1bf64e8a8152d2667bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a44602c6c707cd6339a269552e480a') in 0.024747 seconds 
