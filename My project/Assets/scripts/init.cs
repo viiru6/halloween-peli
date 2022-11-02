@@ -6,6 +6,6 @@ public class init : MonoBehaviour
 {
     void Start()
     {
-        GameObject.Instantiate(Resources.Load("Prefabs/mainmenu"));
+        GameObject.Instantiate(Resources.Load("prefabs/mainmenu"));
     }
 }
