@@ -9,13 +9,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker0
 -projectPath
 C:/Users/Eero.rissanen/Documents/GitHub/halloween-peli/My project
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker0.log
 -srvPort
-63895
+50968
 Successfully changed project path to: C:/Users/Eero.rissanen/Documents/GitHub/halloween-peli/My project
 C:/Users/Eero.rissanen/Documents/GitHub/halloween-peli/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Eero.rissanen/Documents/GitHub/halloween-peli/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 69.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,41 +63,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.038436 seconds.
+Registered in 0.006692 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 95.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
+- Completed reload, in  0.643 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1020ms)
-		BeginReloadAssembly (308ms)
+	ReloadAssembly (643ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (543ms)
-			LoadAssemblies (307ms)
+		EndReloadAssembly (472ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (103ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
+				RefreshPlugins (97ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadAttributes (115ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,39 +105,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006690 seconds.
+Registered in 0.005531 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Eero.rissanen\Documents\GitHub\halloween-peli\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Eero.rissanen\Documents\GitHub\halloween-peli\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.307 seconds
+- Completed reload, in  0.985 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1308ms)
-		BeginReloadAssembly (103ms)
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1099ms)
-			LoadAssemblies (249ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (334ms)
+			SetupTypeCache (254ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (433ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (366ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -145,13 +145,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.3 KB). Loaded Objects now: 3838.
+Unloading 25 unused Assets / (55.7 KB). Loaded Objects now: 3838.
 Memory consumption went from 116.0 MB to 116.0 MB.
-Total: 3.056800 ms (FindLiveObjects: 0.285800 ms CreateObjectMapping: 0.216200 ms MarkObjects: 2.488900 ms  DeleteObjects: 0.065100 ms)
+Total: 4.373000 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.200100 ms MarkObjects: 3.783600 ms  DeleteObjects: 0.078700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,7 +165,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 42418.776148 seconds.
-  path: Assets/kolmereemallit/materials/Kauhukakaranormal.png
-  artifactKey: Guid(8139775fc49821d489df9595f4ee3f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kolmereemallit/materials/Kauhukakaranormal.png using Guid(8139775fc49821d489df9595f4ee3f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bcfd3fe5c4218a2ef9aa58220dfa77') in 0.122226 seconds 
+  Time since last request: 10183.126295 seconds.
+  path: Assets/kolmereemallit
+  artifactKey: Guid(a14b284f08e1eb941bcec973f5d86ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit using Guid(a14b284f08e1eb941bcec973f5d86ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84f83ad9070b53ea74482d2f8e26ed7') in 0.011370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.228916 seconds.
+  path: Assets/kolmereemallit/kauhukakara.blend
+  artifactKey: Guid(d58774199281e164b8e6402ca99396c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/kauhukakara.blend using Guid(d58774199281e164b8e6402ca99396c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64ebbdbad4aeb82c6de82e80ac31f5b') in 0.547896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.729304 seconds.
+  path: Assets/kolmereemallit/New Material.mat
+  artifactKey: Guid(dd08502d5ad1bf64e8a8152d2667bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/New Material.mat using Guid(dd08502d5ad1bf64e8a8152d2667bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8194f031c8cb5718b470aaa79b0797bc') in 0.021336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.613438 seconds.
+  path: Assets/kolmereemallit/New Folder
+  artifactKey: Guid(59f91145d6e7d414b817507738285eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/New Folder using Guid(59f91145d6e7d414b817507738285eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5357eaebaf3830c0b999ae2ca62a4f') in 0.006917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.404037 seconds.
+  path: Assets/kolmereemallit/materials
+  artifactKey: Guid(59f91145d6e7d414b817507738285eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials using Guid(59f91145d6e7d414b817507738285eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e045604343eee947c188ff7e666d89d') in 0.006794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.784583 seconds.
+  path: Assets/kolmereemallit/materials/Materiaalikuvat
+  artifactKey: Guid(72aff0951bf6bd947bd5292ef0966bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Materiaalikuvat using Guid(72aff0951bf6bd947bd5292ef0966bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d038d04fbce93749cceb52d160ae36') in 0.006514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.098715 seconds.
+  path: Assets/kolmereemallit/materials/Materiaalikuvat/Kauhukakaraemit.png
+  artifactKey: Guid(47392c159d46f7e4a8135e127d6efea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Materiaalikuvat/Kauhukakaraemit.png using Guid(47392c159d46f7e4a8135e127d6efea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b2df9b9a7c67404f3a7f3ddbe43e46') in 0.033383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kolmereemallit/materials/Materiaalikuvat/Kauhukakaravarit.png
+  artifactKey: Guid(2207ef014c263544baa431e285cab204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/Materiaalikuvat/Kauhukakaravarit.png using Guid(2207ef014c263544baa431e285cab204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d239e9c45b8a6da50657ddaca20ff3') in 0.018825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16134.233370 seconds.
+  path: Assets/kolmereemallit/materials/New Material.mat
+  artifactKey: Guid(dd08502d5ad1bf64e8a8152d2667bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kolmereemallit/materials/New Material.mat using Guid(dd08502d5ad1bf64e8a8152d2667bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a244682ee4ba91625ba8be8324918fc7') in 0.204938 seconds 
