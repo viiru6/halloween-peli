@@ -42,3 +42,4 @@ Thumbs.db
 *.log
 *.log
 My project/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+*.log
