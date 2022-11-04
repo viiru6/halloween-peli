@@ -14,7 +14,8 @@ GameObject:
   - component: {fileID: 2194487098285114352}
   - component: {fileID: 2194487098285114353}
   - component: {fileID: 2194487098285114354}
-  - component: {fileID: 2194487098285113868}
+  - component: {fileID: 4514089101463642828}
+  - component: {fileID: 2497298919429721004}
   m_Layer: 7
   m_Name: vihollinen
   m_TagString: enemy
@@ -139,7 +140,7 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &2194487098285113868
+--- !u!114 &4514089101463642828
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,10 +154,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   navMeshAgent: {fileID: 0}
   startWaitTime: 0
-  timeToRotate: 0.001
+  timeToRotate: 1
   speedWalk: 6
   speedRun: 9
-  viewRadius: 10000
+  viewRadius: 1000
   viewAngle: 360
   playerMask:
     serializedVersion: 2
@@ -168,3 +169,16 @@ MonoBehaviour:
   edgeIterations: 4
   edgeDistance: 0.5
   waypoints: []
+--- !u!114 &2497298919429721004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2194487098285114355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c381de8796baf1441a47140e8dbd9415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxHealth: 100

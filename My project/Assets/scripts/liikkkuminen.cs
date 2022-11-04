@@ -82,7 +82,7 @@ public class liikkkuminen : MonoBehaviour
     private void MovePlayer()
     {
         // calculate movement direction
-        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+        moveDirection = -(orientation.forward * verticalInput + orientation.right * horizontalInput);
 
         // on ground
         if (grounded)

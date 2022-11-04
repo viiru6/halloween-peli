@@ -8,8 +8,10 @@ public class mainmenu : MonoBehaviour
     GameObject game;
     private void Start()
     {
+        spawnmanager.alive = true;
         game = gameObject;
         game.SetActive(false);
+        
     }
     public void poistu()
     {

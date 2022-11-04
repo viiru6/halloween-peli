@@ -13,7 +13,6 @@ public class playerStats : MonoBehaviour
     {
         hp = MaxHealth;
     }
-    [SerializeField]
     public void sattua(int damage)
     {
         bool menuOpen = false;
@@ -23,6 +22,7 @@ public class playerStats : MonoBehaviour
         if (hp <= 0)
         {
             Debug.Log("kuolla");
+            spawnmanager.alive = false;
             try
             {
                 if (menuOpen)

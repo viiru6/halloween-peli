@@ -2,16 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-public class vihollisenäly: MonoBehaviour
+public class AIController : MonoBehaviour
 {
     public NavMeshAgent navMeshAgent;               //  Nav mesh agent component
     public float startWaitTime = 4;                 //  Wait time of every action
     public float timeToRotate = 2;                  //  Wait time when the enemy detect near the player without seeing
-    public float speedWalk = 7;                     //  Walking speed, speed in the nav mesh agent
-    public float speedRun = 10;                      //  Running speed
+    public float speedWalk = 6;                     //  Walking speed, speed in the nav mesh agent
+    public float speedRun = 9;                      //  Running speed
 
-    public float viewRadius = 15000;                   //  Radius of the enemy view
-    public float viewAngle = 90000;                    //  Angle of the enemy view
+    public float viewRadius = 15;                   //  Radius of the enemy view
+    public float viewAngle = 90;                    //  Angle of the enemy view
     public LayerMask playerMask;                    //  To detect the player with the raycast
     public LayerMask obstacleMask;                  //  To detect the obstacules with the raycast
     public float meshResolution = 1.0f;             //  How many rays will cast per degree
@@ -42,17 +42,12 @@ public class vihollisenäly: MonoBehaviour
         m_WaitTime = startWaitTime;                 //  Set the wait time variable that will change
         m_TimeToRotate = timeToRotate;
 
-        m_CurrentWaypointIndex = 0;                 //  Set the initial waypoint //ns. huomaamis etäisyys
+        m_CurrentWaypointIndex = 0;                 //  Set the initial waypoint
         navMeshAgent = GetComponent<NavMeshAgent>();
 
         navMeshAgent.isStopped = false;
         navMeshAgent.speed = speedWalk;             //  Set the navemesh speed with the normal speed of the enemy
-        try
-        {
-            navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);    //  Set the destination to the first waypoint
-
-        }
-        catch { }
+        navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);    //  Set the destination to the first waypoint
     }
 
     private void Update()
@@ -82,30 +77,23 @@ public class vihollisenäly: MonoBehaviour
         }
         if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)    //  Control if the enemy arrive to the player location
         {
-            try
+            if (m_WaitTime <= 0 && !m_CaughtPlayer && Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) >= 6f)
             {
-                if (m_WaitTime <= 0 && !m_CaughtPlayer && Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) >= 6f)
-                {
-                    //  Check if the enemy is not near to the player, returns to patrol after the wait time delay
-                    m_IsPatrol = true;
-                    m_PlayerNear = false;
-                    Move(speedWalk);
-                    m_TimeToRotate = timeToRotate;
-                    m_WaitTime = startWaitTime;
-                    navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);
-                }
-                else
-                {
-
-                    if (Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) >= 200f)
-                        //  Wait if the current position is not the player position
-                        Stop();
-                    m_WaitTime -= Time.deltaTime;
-
-                }
+                //  Check if the enemy is not near to the player, returns to patrol after the wait time delay
+                m_IsPatrol = true;
+                m_PlayerNear = false;
+                Move(speedWalk);
+                m_TimeToRotate = timeToRotate;
+                m_WaitTime = startWaitTime;
+                navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);
             }
-            catch { }
-            
+            else
+            {
+                if (Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("Player").transform.position) >= 2.5f)
+                    //  Wait if the current position is not the player position
+                    Stop();
+                m_WaitTime -= Time.deltaTime;
+            }
         }
     }
 
@@ -130,12 +118,7 @@ public class vihollisenäly: MonoBehaviour
         {
             m_PlayerNear = false;           //  The player is no near when the enemy is platroling
             playerLastPosition = Vector3.zero;
-            try
-            {
-                navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);    //  Set the enemy destination to the next waypoint
-            }
-            catch { }
-            
+            navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);    //  Set the enemy destination to the next waypoint
             if (navMeshAgent.remainingDistance <= navMeshAgent.stoppingDistance)
             {
                 //  If the enemy arrives to the waypoint position then wait for a moment and go to the next
@@ -161,10 +144,8 @@ public class vihollisenäly: MonoBehaviour
 
     public void NextPoint()
     {
-        try { m_CurrentWaypointIndex = (m_CurrentWaypointIndex + 1) % waypoints.Length; 
+        m_CurrentWaypointIndex = (m_CurrentWaypointIndex + 1) % waypoints.Length;
         navMeshAgent.SetDestination(waypoints[m_CurrentWaypointIndex].position);
-        }
-        catch { }
     }
 
     void Stop()

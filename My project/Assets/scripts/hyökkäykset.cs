@@ -6,7 +6,7 @@ public class hyökkäykset : MonoBehaviour
 {
     public NavMeshAgent agent;
 
-    public Transform player;
+    public Transform player;    
 
     public LayerMask whatIsGround, whatIsPlayer;
 
